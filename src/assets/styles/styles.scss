@@ -1,0 +1,20 @@
+@import "./homepage/home";
+@import "./homepage/list";
+
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  &-track {
+    background: #fffdfd;
+  }
+  &-thumb {
+    background: rgb(224, 224, 224);
+    border-radius: 1rem;
+    &:hover {
+      background: #555;
+    }
+  }
+}
