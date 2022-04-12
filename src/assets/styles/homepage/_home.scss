@@ -1,0 +1,36 @@
+.homeViewWrapper {
+  display: block;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+
+  .card {
+    min-height: 80vh;
+    max-height: 95vh;
+    .cardContent {
+      min-height: 80vh;
+      max-height: 80vh;
+      overflow-y: auto;
+      li {
+        list-style: none;
+      }
+    }
+    .search {
+      width: 90%;
+      margin: 1rem;
+    }
+  }
+  @media screen and(max-width: 480px) {
+    width: 80%;
+    .card {
+      min-height: 80vh;
+      max-height: 90vh;
+      .cardContent {
+        min-height: 80vh;
+        max-height: 80vh;
+        overflow-y: auto;
+      }
+    }
+  }
+}
